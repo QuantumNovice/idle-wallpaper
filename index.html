@@ -1,0 +1,80 @@
+<html>
+
+
+<style>
+/* Rectangle */
+.rectangle1 {
+  position: absolute;
+  width: 391px;
+  height: 376px;
+  left: 593px;
+  top: 292px;
+  border-radius: 10px;
+  background: rgba(91, 121, 211, 1);
+  filter: blur(100px);
+  animation: example1 1s linear infinite;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 391px;
+  height: 376px;
+  left: 145px;
+  top: 187px;
+  border-radius: 10px;
+  background: rgba(91, 121, 211, 1);
+  filter: blur(100px);
+  animation: example2 1s linear infinite;
+}
+
+.rectangle3 {
+  position: absolute;
+  width: 391px;
+  height: 376px;
+  left: 1047px;
+  top: 187px;
+  border-radius: 10px;
+  background: rgba(91, 121, 211, 1);
+  filter: blur(100px);
+  animation: example3 1s linear infinite;
+}
+
+
+body{
+  background-color:black;
+}
+
+.scroll-text{
+  text-align: center;
+  color: white;
+  width: 8rem;
+  margin: auto;
+  
+}
+
+@keyframes example1 {
+   0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: red;}
+}
+
+@keyframes example2 {
+   0%   {background-color: yellow;}
+  25%  {background-color: blue;}
+  50%  {background-color: green;}
+  100% {background-color: yellow;}
+}
+@keyframes example3 {
+   0%   {background-color: blue;}
+  25%  {background-color: green;}
+  50%  {background-color: red;}
+  100% {background-color: blue;}
+}
+<style>
+
+<div class='rectangle1'></div>
+<div class='rectangle2'></div>
+<div class='rectangle3'></div>
+
+</html>
